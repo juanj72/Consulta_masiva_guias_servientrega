@@ -12,7 +12,7 @@ reporte=[]
 
 for i in range(len(base)):
     guia=base['guia'][i]
-
+    guia=guia.strip()
     datos={
     "strIdGuia":str(guia)
     
