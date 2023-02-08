@@ -11,7 +11,7 @@ base=pd.read_excel('base.xlsx')
 reporte=[]
 
 for i in range(len(base)):
-    guia=base['guia'][i]
+    guia=str(base['guia'][i])
     guia=guia.strip()
     datos={
     "strIdGuia":str(guia)
