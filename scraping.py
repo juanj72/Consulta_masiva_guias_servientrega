@@ -24,7 +24,7 @@ for i in range(len(base)):
 
 
     print("La respuesta del servidor es:")
-    #print(como_json)
+    print(como_json)
     #data=json_normalize(como_json)
     reporte.append(como_json)
     
